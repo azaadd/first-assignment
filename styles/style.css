@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary{
+    height: 64px;
+    border-radius: 5px;
+    color: #005FAC;
+    background: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid #6ebdfd;
+    padding: 18px 30px;
+}
+
+/* header and navigation styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+
+/* banner styles */
+.banner{
+    margin: 0 200px;
+    direction: rtl;
+    
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.banner-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.banner h1,p{
+    width: 500px; 
+}
+.btn-contact{
+    height: 64px;
+    border-radius: 5px;
+    color: #005FAC;
+    background: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #6ebdfd;
+    padding: 18px 30px;
+}
