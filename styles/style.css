@@ -1,6 +1,7 @@
 *{
     margin: 0;
     font-family: 'Work Sans', sans-serif;
+    
 }
 
 .btn-primary{
@@ -15,15 +16,16 @@
 }
 
 /* header and navigation styles */
+.header{
+    
+}
 nav{
     display: flex;
-    justify-content: space-between;
-    margin: 50px 200px;
+    float: right;
+    padding: 20px 200px;
+    
 }
-.nav-title{
-    font-weight: 800;
-    font-size: 45px;
-}
+
 nav ul{
     display: flex;
     align-items: center;
@@ -31,23 +33,29 @@ nav ul{
 nav li{
     list-style: none;
     margin-left: 50px;
+    color: #fff;
 }
 
 /* banner styles */
 .banner{
-    margin: 0 200px;
+    padding: 220px 200px 160px 200px;
     direction: rtl;
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
     
 }
 .banner-title{
     font-size: 65px;
     font-weight: 700;
     margin-bottom: 24px;
+    color: #fff;
 }
 .banner-description{
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 32px;
+    color: #fff;
 }
 .banner h1,p{
     width: 500px; 
@@ -61,4 +69,21 @@ nav li{
     font-weight: 600;
     border: 1px solid #6ebdfd;
     padding: 18px 30px;
+    margin-left: 30px;
+}
+
+/* my failure section */
+.my-failure{
+    margin: 120px 200px 100px 50px;
+}
+.check{
+    margin-top: 40px;
+}
+.article p .fa-solid{
+    color: aquamarine;
+}
+.article p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
 }
