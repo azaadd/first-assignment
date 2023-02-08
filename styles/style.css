@@ -5,7 +5,7 @@
 }
 
 .btn-primary{
-    height: 64px;
+    height: 60px;
     border-radius: 5px;
     color: #005FAC;
     background: #fff;
@@ -213,6 +213,9 @@ nav li{
     color: #FFFFFF;
     font-size: 15px;
     font-weight: 400;
+}
+.social-icon img{
+    margin-right: 15px;
 }
 .social-icon{
     display: flex;
