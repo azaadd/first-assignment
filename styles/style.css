@@ -145,3 +145,38 @@ nav li{
     margin-bottom: 20px;
 }
 
+/* call section styles */
+.call-container{
+    background-image: url('../images/gradient1.png'), url('../images/watch.png');
+    background-repeat: no-repeat;
+    width: 1096px;
+    height: 300px;
+    margin: 130px;
+    border-radius: 5px;
+    
+    
+}
+.call{
+    width: 450px;
+    padding: 55px 60px ;
+}
+.call-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 46px;
+    
+}
+.btn-call{
+    height: 64px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #005FAC;
+    border: 1px solid #6ebdfd;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 18px 30px;
+    
+}
+
